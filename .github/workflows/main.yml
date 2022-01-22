@@ -1,3 +1,6 @@
-steps:
-      - name: "Login via Azure CLI"
+- name: DIY actions
+  # You may pin to the exact commit or the version.
+  # uses: echoings/actions.diy@42a626ae4641f2c1400ddb6e4323204f5e4cdc3e
+  uses: echoings/actions.diy@v0.1.0
       - echo: ${{ secrets.MY_ASCURE_SECRET }}
+      
