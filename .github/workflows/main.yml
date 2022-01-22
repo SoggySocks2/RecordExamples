@@ -1,0 +1,3 @@
+steps:
+      - name: "Login via Azure CLI"
+      - echo: ${{ secrets.MY_ASCURE_SECRET }}
